@@ -152,14 +152,14 @@ p{
             Featured Products Section 
 ===========================================
  */
- .featured-products{
+ .h2-title{
      text-align: center;
      font-size: 30px;
      position: relative;
      margin-bottom: 70px;
  }
 
- .featured-products::after{
+ .h2-title::after{
      content: '';
      width: 130px;
      height: 4px;
