@@ -98,6 +98,7 @@ p{
  }
 
  .btn{
+     display: block;
      padding: 10px 35px;
      margin: 30px 0px;
      background: #ff523b;
@@ -201,4 +202,59 @@ p{
 
  .col-4:hover{
      transform: translate(-5px,-5px);
+ }
+
+  /* 
+ ==========================================
+            Offer Section 
+===========================================
+ */
+
+ .offer{
+    background: radial-gradient(white, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0px;
+ }
+
+ .col-2 .offer-img{
+     width: 100%;
+     padding: 50px;
+ }
+
+ small{
+     color: #555;
+ }
+
+  /* 
+ ==========================================
+            Testimonial Section 
+===========================================
+ */
+
+ .testimonial{
+     padding-top: 100px;
+ }
+
+ .testimonial .col-3{
+     flex-basis: 30%;
+     text-align: center;
+     padding: 40px 20px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+     border-radius: 15px;
+     transition: transform .5s;
+ }
+
+ .testimonial .col-3 img{
+     width: 50%;
+     border-radius: 50%;
+     margin-top: 20px;
+ }
+
+ .testimonial .col-3:hover{
+    transform: translate(-10px, -10px);
+ }
+
+ .fa.fa-quote-left{
+     font-size: 34px;
+     color: #ff523b;
  }
